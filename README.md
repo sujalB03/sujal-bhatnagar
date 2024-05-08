@@ -26,6 +26,8 @@ CSS
 
 JavaScript
 
+JQuery
+
 libraries, e.g., Swiperjs etc
 
 
