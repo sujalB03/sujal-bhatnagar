@@ -1,0 +1,39 @@
+<!-- navbar starts -->
+<html>
+
+<body>
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="side-navbar sidebar navbar">
+        <ul class="navbar-list">
+            <li><a href="index.html#about"><span class="nav-text">About Me</span><img class="nav-icon"
+                        src="Sidebar/About me.png" alt=""></a></li>
+            <li><a href="index.html#skills"><span class="nav-text">Skills</span><img class="nav-icon"
+                        src="Sidebar/Skills.png" alt=""></a></li>
+            <li><a href="index.html#projects"><span class="nav-text">Projects</span><img class="nav-icon"
+                        src="Sidebar/Projects.png" alt=""></a></li>
+            <li><a href="index.html#education"><span class="nav-text">Education</span><img class="nav-icon"
+                        src="Sidebar/Education.png" alt=""></a></li>
+            <!-- <li><a href="#certifications"><span class="nav-text">Certifications</span><img class="nav-icon"
+                        src="Sidebar/Certification.png" alt=""></a></li>
+                        -->
+            <li><a href="index.html#contact"><span class="nav-text">Connect</span><img class="nav-icon"
+                        src="Sidebar/Connect.png" alt=""></a></li>
+        </ul>
+    </nav>
+    <!-- </nav> -->
+    <script>
+        let menu = document.querySelector('#menu-bar');
+        let navbar = document.querySelector('nav');
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+        window.onscroll = () => {
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('active');
+        }
+    </script>
+</body>
+
+</html>
