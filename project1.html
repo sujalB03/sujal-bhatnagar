@@ -240,7 +240,7 @@
 
         // selecting required element
         const element = document.querySelector(".pagination ul");
-        let totalPages = 5;
+        let totalPages = 6;
         let page = 1;
 
         //calling function with passing parameters and adding inside element which is ul tag
@@ -274,8 +274,8 @@
                 liTag += `<li class="dots"><span>...</span></li>`;
 
                 // Display page 5
-                active = page === 5 ? "active" : "";
-                liTag += `<a href="project5.html"><li class="numb ${active}" onclick="goToPage(5)"><span>5</span></li></a>`;
+                active = page === 6 ? "active" : "";
+                liTag += `<a href="project6.html"><li class="numb ${active}" onclick="goToPage(6)"><span>6</span></li></a>`;
             } else {
                 // Display all pages
                 for (let i = 1; i <= totalPages; i++) {
