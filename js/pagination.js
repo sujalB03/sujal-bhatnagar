@@ -21,7 +21,7 @@ const fileNameWithoutExtension = getFileNameWithoutExtension();
 console.log(fileNameWithoutExtension.slice(-1)); // Output: the filename without the extension
 // selecting required element
         const element = document.querySelector(".pagination ul");
-        let totalPages = 5;
+        let totalPages = 6;
         let page = parseInt(fileNameWithoutExtension.slice(-1));
 
         //calling function with passing parameters and adding inside element which is ul tag
